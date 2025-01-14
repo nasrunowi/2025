@@ -35,5 +35,11 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
+      - name: tambahan
+        run: date
+
+      - name: Jalankan Python
+        run: python nama.py
+
       - name: Secret Variable
       - run: echo ${{Secrets.Nashrun_Arsyad}}
